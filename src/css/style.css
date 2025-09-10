@@ -27,14 +27,15 @@ body {
 
 
 .card {
-
+    display: flex;
+    flex-direction: column;
 
     background-color: hsl(216, 50%, 16%);
 
-    height: 600px;
+    height: 625px;
     width: 370px;
 
-    padding: 30px;
+    padding: 25px;
 
     gap: 20px;
 
@@ -66,6 +67,13 @@ body {
 }
 
 
+.foto-card:active {
+
+    background-image: url("../images/icon-view.svg");
+}
+
+
+
 
 .textos-card {
     display: flex;
@@ -83,39 +91,61 @@ body {
 
     font-weight: 400;
 
+    font-size: 24px;
+
+}
+
+
+.titulo-card:active{
+    color: hsl(178, 100%, 50%);
+
 }
 
 
 
-.info-card {
 
-    margin-bottom: 25px;
+
+.info-card {
+    margin-bottom: 10px;
 }
 
 
 .status-card {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 
 
 
 .eth {
+    display: flex;
+    align-items: center;
+    gap: 7px;
     color: hsl(178, 100%, 50%);
-    font-weight: 600;
-
+    font-weight: 400;
 }
 
 
-.tempo-restante {}
+.tempo-restante {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
 
 
 
 
-.hr {}
+.hr {
+
+    border: none;
+    height: 1px;
+    background-color: hsla(215, 52%, 70%, 0.158);
+
+}
 
 .autor {
     display: flex;
@@ -129,7 +159,7 @@ body {
 
 .autor-foto {
 
-    max-width: 12%;
+    max-width: 10%;
 
     border: solid 1.5px white;
     border-radius: 100%;
