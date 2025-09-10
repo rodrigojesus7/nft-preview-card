@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
 
@@ -5,4 +6,64 @@
 
 body {
     background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+    font-size: 18px;
+}
+
+
+
+.container{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+
+
+.card{
+   
+
+    background-color: hsl(216, 50%, 16%);
+
+    height: 600px;
+}
+
+
+.itens-card{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 500;
+
+}
+
+
+.foto-card{
+ 
+    max-width: 320px;
+}
+
+
+
+.titulo-card{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.info-card{
+    text-align: left;
+}
+
+
+.status-card{
+    display: flex;
+    justify-content: space-between;
+
 }
