@@ -8,11 +8,13 @@ body {
     background-color: hsl(217, 54%, 11%);
     font-family: Outfit;
     font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
 }
 
 
 
-.container{
+.container {
     display: flex;
 
     justify-content: center;
@@ -24,16 +26,26 @@ body {
 
 
 
-.card{
-   
+.card {
+
 
     background-color: hsl(216, 50%, 16%);
 
     height: 600px;
+    width: 370px;
+
+    padding: 30px;
+
+    gap: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.192);
+
 }
 
 
-.itens-card{
+.itens-card {
     display: flex;
     flex-direction: column;
 
@@ -41,29 +53,92 @@ body {
 
     height: 500;
 
+    gap: 20px;
+
 }
 
 
-.foto-card{
- 
+.foto-card {
+
     max-width: 320px;
+
+    border-radius: 10px;
 }
 
 
 
-.titulo-card{
+.textos-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 20px;
+
+}
+
+
+
+.titulo-card {
     color: hsl(0, 0%, 100%);
+    align-self: flex-start;
+
+    font-weight: 400;
+
 }
 
 
 
-.info-card{
-    text-align: left;
+.info-card {
+
+    margin-bottom: 25px;
 }
 
 
-.status-card{
+.status-card {
     display: flex;
     justify-content: space-between;
+
+}
+
+
+
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+
+}
+
+
+.tempo-restante {}
+
+
+
+
+
+.hr {}
+
+.autor {
+    display: flex;
+
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+
+.autor-foto {
+
+    max-width: 12%;
+
+    border: solid 1.5px white;
+    border-radius: 100%;
+}
+
+
+
+
+.autor-nome {
+    color: hsl(0, 0%, 100%);
 
 }
