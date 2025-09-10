@@ -64,13 +64,14 @@ body {
     max-width: 320px;
 
     border-radius: 10px;
+
+    cursor: pointer;
+
 }
 
 
-.foto-card:active {
 
-    background-image: url("../images/icon-view.svg");
-}
+
 
 
 
@@ -93,12 +94,13 @@ body {
 
     font-size: 24px;
 
+    cursor: pointer;
+
 }
 
 
-.titulo-card:active{
+.titulo-card:active {
     color: hsl(178, 100%, 50%);
-
 }
 
 
@@ -171,4 +173,11 @@ body {
 .autor-nome {
     color: hsl(0, 0%, 100%);
 
+    cursor: pointer;
+
+}
+
+
+.autor-nome:active {
+    color: hsl(178, 100%, 50%);
 }
